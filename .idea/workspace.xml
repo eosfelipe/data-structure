@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d027865-7e6d-4365-839d-2b7b40b1818d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/QueueNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/StackNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/StackNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data-structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/QueueNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/felipe.escobedo/workspace/data-structure",
     "onboarding.tips.debug.path": "C:/Users/felipe.escobedo.DUNOSUSA01/IdeaProjects/data-structure/src/Main.java",
     "settings.editor.selected.configurable": "project.kotlinCompiler"
   }

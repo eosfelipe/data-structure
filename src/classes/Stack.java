@@ -8,29 +8,29 @@ public class Stack {
     private int elements;
 
     public Stack(){
-        top = null;
-        elements = 0;
+        this.top = null;
+        this.elements = 0;
     }
 
     /*Insertar un elemento*/
     public void push(String value){
         StackNode newNode = new StackNode(value, null);
 
-        if(top == null){
-            top = newNode;
+        if(this.top == null){
+            this.top = newNode;
         } else {
             newNode.setNext(top);
-            top = newNode;
+            this.top = newNode;
         }
 
-        elements++;
+        this.elements++;
     }
 
     /*Sacar un elemento*/
     public String pop(){
-        String value = top.getValue();
-        top = top.getNext();
-        elements--;
+        String value = this.top.getValue();
+        this.top = this.top.getNext();
+        this.elements--;
         return value;
     }
 
@@ -40,11 +40,11 @@ public class Stack {
     }
 
     public boolean hasNext(){
-        return top != null;
+        return this.top != null;
     }
 
     public void clear(){
-        top = null;
+        this.top = null;
     }
 
     /*Comprobar si un elemento esta en la estructura*/
@@ -71,7 +71,7 @@ public class Stack {
             return;
         String value = this.pop();
         print();
-        System.out.print(value + " ");
+        System.out.print(value + ", ");
         this.push(value);
     }
 }

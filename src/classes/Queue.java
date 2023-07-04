@@ -11,7 +11,7 @@ public class Queue {
         this.elements = 0;
     }
 
-    public void push(Object item){
+    public void enqueue(Object item){
         QueueNode node = new QueueNode(item,null);
         if(this.start == null){
             this.start = node;
@@ -22,7 +22,7 @@ public class Queue {
         this.elements++;
     }
 
-    public Object pop() {
+    public Object dequeue() {
         Object item = null;
         if (this.elements > 0) {
             item = this.start.getItem();
@@ -42,5 +42,9 @@ public class Queue {
 
     public int size(){
         return this.elements;
+    }
+
+    public Object getNext(){
+        return this.start.getItem();
     }
 }
